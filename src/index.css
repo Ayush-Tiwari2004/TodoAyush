@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-color: #590c6a;
+}
+.checklist{
+    text-decoration: line-through;
+}
+.notchecklist{
+    text-decoration: none;
+}
+.advance-counter{
+    background-color: rgb(10, 76, 76);
+    padding: 2px 25px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    & :hover{
+        background: rgb(9, 119, 119);
+    }
+}
+.mini-cards{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pokemon-img{
+    width: 60%;
+    height: 15rem;
+}
+/* src/TodoList.css */
+.checklist {
+    text-decoration: line-through;
+    color: #ccc;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
